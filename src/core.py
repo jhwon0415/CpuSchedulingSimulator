@@ -1,10 +1,9 @@
 import sys
 import heapq
-from src.mod import *
+from src.lib import *
+import fileinput
 
+file = open("input.txt",'r')
 
-task = Task()
-
-task.start_time = 10
-task.end_time = 20
-print(task.get_response_time(), file=sys.stdout)
+data=file.readline()
+print(data)

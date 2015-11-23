@@ -12,3 +12,21 @@ class Task:
     def get_response_time(self):
         return self.end_time - self.start_time
 
+class TaskList:
+    list = []
+
+class TaskQueue:
+    list = []
+
+
+class ExecutionRecord:
+    list = []
+
+class finishedTaskList:
+    list = []
+
+class Policy:
+    current_policy = int
+
+class TaskStatistics:
+    list = []
